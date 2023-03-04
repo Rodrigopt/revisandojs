@@ -1,5 +1,5 @@
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "hello world";
+//const myHeading = document.querySelector("h1");
+//myHeading.textContent = "hello world";
 
 function multiply(num1, num2) {
     let result = num1 * num2;
@@ -9,7 +9,7 @@ let i = multiply(16, 32);
 console.log(i);
 
 
-alert(multiply(32, 32))
+//alert(multiply(32, 32));
 
 //document.querySelector("html").addEventListener("click", function () {
 //    alert("ai pai para");
@@ -26,29 +26,8 @@ myImage.onclick = () => {
   }
 };
 
-/*let myButton = document.querySelector('button');
+let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
-
-function setUserName() {
-  let myName = prompt('Please enter your name.');
-  if(!myName) {
-    setUserName();
-  } else {
-    localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
-  }
-}
-
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
-}
-
-myButton.onclick = function() {
-  setUserName();
-} */
 
 function setUserName() {
   const myName = prompt("Por favor digite o seu nome.");
