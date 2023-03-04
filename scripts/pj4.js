@@ -1,6 +1,6 @@
 //velocidade maxima até 70
 //a cada 5km acima do limite aumenta + 1 ponto
-radar(130);
+radar(75);
 
 function radar(velocidade) {
     let ponto=0;

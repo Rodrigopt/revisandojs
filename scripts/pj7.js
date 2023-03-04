@@ -1,6 +1,6 @@
 //somar multiplos de 3 e 5
 
-somar(10);
+somar(110);
 
 function somar(limite) {
     let soma=0;

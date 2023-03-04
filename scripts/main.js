@@ -1,5 +1,5 @@
-//const myHeading = document.querySelector("h1");
-//myHeading.textContent = "hello world";
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "hello world";
 
 function multiply(num1, num2) {
     let result = num1 * num2;
@@ -11,9 +11,9 @@ console.log(i);
 
 alert(multiply(32, 32))
 
-/*document.querySelector("html").addEventListener("click", function () {
-    alert("ai pai para");
-});*/
+//document.querySelector("html").addEventListener("click", function () {
+//    alert("ai pai para");
+//});
 
 const myImage = document.querySelector("img");
 

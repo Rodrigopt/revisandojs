@@ -6,4 +6,4 @@ function retornaMaior (a, b) {
     }
 }
 
-console.log(retornaMaior(2022,20024));
+console.log(retornaMaior(20,5));

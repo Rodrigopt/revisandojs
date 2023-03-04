@@ -1,4 +1,4 @@
-fizzBuzz(11);
+fizzBuzz("ndug");
 
 
 function fizzBuzz(entrada) {

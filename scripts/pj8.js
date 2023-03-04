@@ -1,8 +1,8 @@
 //media de array
 
-const notasAluno = [90, 70, 70];
-media(notasAluno)
-analisar(70);
+const notasAluno = [90, 80, 70];
+media(notasAluno);
+analisar(80);
 
 function media(notas) {
     let soma = 0;
